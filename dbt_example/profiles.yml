@@ -1,0 +1,10 @@
+dbt_example:
+  target: dev
+  outputs:
+      dev:
+        type: bigquery
+        method: service-account
+        project: prime-buffer-367812
+        dataset: DBT_DW
+        threada: 4
+        keyfile: /mnt/c/Users/mauricio.fraga_invol/Documents/DBT/prime-buffer-367812-cc117984c30b.json  
